@@ -86,6 +86,7 @@ flutter run komutuyla uygulamayı başlatın.
 <img width="350" alt="Ekran görüntüsü 2026-02-15 225338" src="https://github.com/user-attachments/assets/803dea40-fb67-45b3-bf7f-897f94c42dbe" />
 <img width="350" alt="Ekran görüntüsü 2026-02-15 225345" src="https://github.com/user-attachments/assets/36af4ff3-9b58-44d4-bd73-03830465bd79" />
 <img width="350" alt="Ekran görüntüsü 2026-02-15 225352" src="https://github.com/user-attachments/assets/f4f9ecfa-969c-4097-8833-b235e1197162" />
+<img width="350" alt="BuketPolat_ProductDetailScreen" src="https://github.com/user-attachments/assets/089c5622-55f8-4cd1-97cf-ca1acf7cfea7" />
 
 
 ## 👩🏻‍💻
