@@ -1,4 +1,4 @@
-# 📱 Mini Store App - Flutter Katalog Uygulaması
+# 🛍️ Mini Store App - Flutter Katalog Uygulaması
 
 
 Bu proje, temel Flutter widget yapılarını, sayfa navigasyonunu ve dinamik veri yönetimini öğrenmek amacıyla geliştirilmiş bir Mini Katalog Uygulamasıdır. Uygulama, gerçekçi bir e-ticaret deneyimi sunmak için JSON tabanlı bir veri simülasyonu kullanmaktadır.
@@ -7,37 +7,46 @@ Bu proje, temel Flutter widget yapılarını, sayfa navigasyonunu ve dinamik ver
 ## 🎯 Projenin Amacı
 
 
-Flutter SDK ve Dart programlama dili kullanılarak; widget ağacı mantığını kavramak, sayfalar arası veri taşımak ve basit bir state yönetimi simülasyonu (favoriler ve sepet) gerçekleştirmektir.
+Bu proje ile amaçlanan:
 
-## ✨ Öne Çıkan Özellikler
+Flutter widget ağacını etkin şekilde kullanmak
 
-Dinamik Ürün Listeleme: GridView.builder kullanılarak JSON dosyasından çekilen verilerin performanslı bir şekilde sergilenmesi.
+Sayfalar arası veri iletimi ve navigator yapısını anlamak
+
+JSON dosyasından veri çekerek listeleme ekranı oluşturmak
+
+Basit bir state management (lifting state up) mantığı ile Favoriler & Sepet yönetimi yapmak
+
+Temiz kod prensipleriyle proje klasör yapısını oluşturmak
+
+## ✨ Uygulama Özellikleri
+
+Dinamik Katalog: ListView.builder ve GridView.builder ile performanslı ürün listeleme.
 
 
-Gelişmiş Navigasyon: Sayfalar arası geçişlerde Navigator.push/pop ve Route Arguments ile veri iletimi.
+Merkezi State Yönetimi: Favori ve Sepet sisteminin "Lifting State Up" yaklaşımıyla merkezi olarak yönetilmesi.
 
 
-State Management (Lifting State Up): Favori ve Sepet verilerinin MainScreen üzerinden merkezi olarak yönetilmesi.
+Ürün Detay Sayfası: Dinamik içerik ve interaktif sepete ekleme/favori butonları.
 
 
-Detaylı Ürün Sayfası: Ürün görselleri, açıklamaları ve interaktif sepet/favori butonları.
+Modüler Mimari: Temiz kod prensiplerine uygun klasörleme yapısı.
 
 
-Kullanıcı Profili: Basit bir giriş/çıkış (Auth) simülasyonu.
+Görsel Yönetimi: Image.network ile ağ üzerinden çekilen görsellerin hata kontrolü ile yönetimi.
+
+
 
 ## 📁 Proje Yapısı
 Proje, temiz kod (Clean Code) prensiplerine uygun olarak şu klasörleme yapısıyla geliştirilmiştir:
 
-
-lib/models: Veri modelleri (Product class).
-
-lib/views: Uygulama ekranları (Home, Cart, Favorites, Profile, Detail).
-
-lib/services: Veri çekme işlemleri (JSON Service).
-
-lib/components: Tekrar kullanılabilir widget'lar (ProductCard vb.).
-
-lib/data: Yerel JSON veri kaynağı.
+lib/
+ ├── components/      : Tekrar kullanılabilir widget'lar (ProductCard vb.).
+ ├── data/            : Yerel JSON veri kaynağı.
+ ├── models/          : Veri modelleri.
+ ├── services/        : Veri çekme işlemleri (JSON Service).
+ ├── views/           : Uygulama ekranları (Home, Cart, Favorites, Profile, Detail).
+ └── main.dart        : Uygulama giriş noktası
 
 ## 🛠️ Kullanılan Teknolojiler
 
@@ -71,3 +80,7 @@ flutter run komutuyla uygulamayı başlatın.
 <img width="350" alt="Ekran görüntüsü 2026-02-15 225345" src="https://github.com/user-attachments/assets/36af4ff3-9b58-44d4-bd73-03830465bd79" />
 <img width="350" alt="Ekran görüntüsü 2026-02-15 225352" src="https://github.com/user-attachments/assets/f4f9ecfa-969c-4097-8833-b235e1197162" />
 
+
+## 👩🏻‍💻
+Bu proje, Flutter öğrenme sürecini hızlandırmak ve temel uygulama mimarisini kavratmak için geliştirilmiştir.
+Geliştirici: Buket POLAT
