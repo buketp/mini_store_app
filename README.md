@@ -9,15 +9,15 @@ Bu proje, temel Flutter widget yapılarını, sayfa navigasyonunu ve dinamik ver
 
 Bu proje ile amaçlanan:
 
--Flutter widget ağacını etkin şekilde kullanmak
+ -Flutter widget ağacını etkin şekilde kullanmak
 
--Sayfalar arası veri iletimi ve navigator yapısını anlamak
+ -Sayfalar arası veri iletimi ve navigator yapısını anlamak
 
--JSON dosyasından veri çekerek listeleme ekranı oluşturmak
+ -JSON dosyasından veri çekerek listeleme ekranı oluşturmak
 
--Basit bir state management mantığı ile Favoriler & Sepet yönetimi yapmak
+ -Basit bir state management mantığı ile Favoriler & Sepet yönetimi yapmak
 
--Temiz kod prensipleriyle proje klasör yapısını oluşturmak
+ -Temiz kod prensipleriyle proje klasör yapısını oluşturmak
 
 ## ✨ Uygulama Özellikleri
 
@@ -42,17 +42,17 @@ Proje, temiz kod (Clean Code) prensiplerine uygun olarak şu klasörleme yapıs�
 
 lib/
 
- ├── components/      : Tekrar kullanılabilir widget'lar (ProductCard vb.).
+  ├── components/      : Tekrar kullanılabilir widget'lar (ProductCard vb.).
  
- ├── data/            : Yerel JSON veri kaynağı.
+  ├── data/            : Yerel JSON veri kaynağı.
  
- ├── models/          : Veri modelleri.
+  ├── models/          : Veri modelleri.
  
- ├── services/        : Veri çekme işlemleri (JSON Service).
+  ├── services/        : Veri çekme işlemleri (JSON Service).
  
- ├── views/           : Uygulama ekranları (Home, Cart, Favorites, Profile, Detail).
+  ├── views/           : Uygulama ekranları (Home, Cart, Favorites, Profile, Detail).
  
- └── main.dart        : Uygulama giriş noktası
+  └── main.dart        : Uygulama giriş noktası
 
 ## 🛠️ Kullanılan Teknolojiler
 
@@ -80,6 +80,7 @@ flutter run komutuyla uygulamayı başlatın.
 
 
 ## 📸 Ekran Görüntüleri
+
 <img width="350" alt="Ekran görüntüsü 2026-02-15 225255" src="https://github.com/user-attachments/assets/5a9f03ed-bb39-4781-b405-12bf35a3243f" />
 <img width="350" alt="Ekran görüntüsü 2026-02-15 225310" src="https://github.com/user-attachments/assets/341d7759-b1da-45df-ae2a-eafd8d5a83e5" />
 <img width="350" alt="Ekran görüntüsü 2026-02-15 225338" src="https://github.com/user-attachments/assets/803dea40-fb67-45b3-bf7f-897f94c42dbe" />
