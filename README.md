@@ -65,9 +65,9 @@ flutter run komutuyla uygulamayı başlatın.
 
 
 ## 📸 Ekran Görüntüleri
-<img width="350" alt="Ekran görüntüsü 2026-02-15 225352" src="https://github.com/user-attachments/assets/f4f9ecfa-969c-4097-8833-b235e1197162" />
-<img width="350" alt="Ekran görüntüsü 2026-02-15 225345" src="https://github.com/user-attachments/assets/36af4ff3-9b58-44d4-bd73-03830465bd79" />
-<img width="350" alt="Ekran görüntüsü 2026-02-15 225338" src="https://github.com/user-attachments/assets/803dea40-fb67-45b3-bf7f-897f94c42dbe" />
-<img width="350" alt="Ekran görüntüsü 2026-02-15 225310" src="https://github.com/user-attachments/assets/341d7759-b1da-45df-ae2a-eafd8d5a83e5" />
 <img width="350" alt="Ekran görüntüsü 2026-02-15 225255" src="https://github.com/user-attachments/assets/5a9f03ed-bb39-4781-b405-12bf35a3243f" />
+<img width="350" alt="Ekran görüntüsü 2026-02-15 225310" src="https://github.com/user-attachments/assets/341d7759-b1da-45df-ae2a-eafd8d5a83e5" />
+<img width="350" alt="Ekran görüntüsü 2026-02-15 225338" src="https://github.com/user-attachments/assets/803dea40-fb67-45b3-bf7f-897f94c42dbe" />
+<img width="350" alt="Ekran görüntüsü 2026-02-15 225345" src="https://github.com/user-attachments/assets/36af4ff3-9b58-44d4-bd73-03830465bd79" />
+<img width="350" alt="Ekran görüntüsü 2026-02-15 225352" src="https://github.com/user-attachments/assets/f4f9ecfa-969c-4097-8833-b235e1197162" />
 
