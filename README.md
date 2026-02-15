@@ -1,8 +1,11 @@
 #📱 Mini Store App - Flutter Katalog Uygulaması ##
 
+
 Bu proje, temel Flutter widget yapılarını, sayfa navigasyonunu ve dinamik veri yönetimini öğrenmek amacıyla geliştirilmiş bir Mini Katalog Uygulamasıdır. Uygulama, gerçekçi bir e-ticaret deneyimi sunmak için JSON tabanlı bir veri simülasyonu kullanmaktadır.
 
+
 ##🎯 Projenin Amacı
+
 
 Flutter SDK ve Dart programlama dili kullanılarak; widget ağacı mantığını kavramak, sayfalar arası veri taşımak ve basit bir state yönetimi simülasyonu (favoriler ve sepet) gerçekleştirmektir.
 
