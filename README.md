@@ -9,15 +9,15 @@ Bu proje, temel Flutter widget yapılarını, sayfa navigasyonunu ve dinamik ver
 
 Bu proje ile amaçlanan:
 
- -Flutter widget ağacını etkin şekilde kullanmak
+ - Flutter widget ağacını etkin şekilde kullanmak
 
- -Sayfalar arası veri iletimi ve navigator yapısını anlamak
+ - Sayfalar arası veri iletimi ve navigator yapısını anlamak
 
- -JSON dosyasından veri çekerek listeleme ekranı oluşturmak
+ - JSON dosyasından veri çekerek listeleme ekranı oluşturmak
 
- -Basit bir state management mantığı ile Favoriler & Sepet yönetimi yapmak
+ - Basit bir state management mantığı ile Favoriler & Sepet yönetimi yapmak
 
- -Temiz kod prensipleriyle proje klasör yapısını oluşturmak
+ - Temiz kod prensipleriyle proje klasör yapısını oluşturmak
 
 ## ✨ Uygulama Özellikleri
 
