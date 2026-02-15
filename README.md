@@ -9,15 +9,15 @@ Bu proje, temel Flutter widget yapılarını, sayfa navigasyonunu ve dinamik ver
 
 Bu proje ile amaçlanan:
 
-Flutter widget ağacını etkin şekilde kullanmak
+-Flutter widget ağacını etkin şekilde kullanmak
 
-Sayfalar arası veri iletimi ve navigator yapısını anlamak
+-Sayfalar arası veri iletimi ve navigator yapısını anlamak
 
-JSON dosyasından veri çekerek listeleme ekranı oluşturmak
+-JSON dosyasından veri çekerek listeleme ekranı oluşturmak
 
-Basit bir state management (lifting state up) mantığı ile Favoriler & Sepet yönetimi yapmak
+-Basit bir state management mantığı ile Favoriler & Sepet yönetimi yapmak
 
-Temiz kod prensipleriyle proje klasör yapısını oluşturmak
+-Temiz kod prensipleriyle proje klasör yapısını oluşturmak
 
 ## ✨ Uygulama Özellikleri
 
@@ -41,11 +41,17 @@ Görsel Yönetimi: Image.network ile ağ üzerinden çekilen görsellerin hata k
 Proje, temiz kod (Clean Code) prensiplerine uygun olarak şu klasörleme yapısıyla geliştirilmiştir:
 
 lib/
+
  ├── components/      : Tekrar kullanılabilir widget'lar (ProductCard vb.).
+ 
  ├── data/            : Yerel JSON veri kaynağı.
+ 
  ├── models/          : Veri modelleri.
+ 
  ├── services/        : Veri çekme işlemleri (JSON Service).
+ 
  ├── views/           : Uygulama ekranları (Home, Cart, Favorites, Profile, Detail).
+ 
  └── main.dart        : Uygulama giriş noktası
 
 ## 🛠️ Kullanılan Teknolojiler
@@ -82,5 +88,7 @@ flutter run komutuyla uygulamayı başlatın.
 
 
 ## 👩🏻‍💻
+
 Bu proje, Flutter öğrenme sürecini hızlandırmak ve temel uygulama mimarisini kavratmak için geliştirilmiştir.
+
 Geliştirici: Buket POLAT
